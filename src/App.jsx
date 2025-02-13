@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <Header/>
-      <div className='md:flex max-w-7xl mx-auto mt-3'>
+      <div className='md:flex max-w-7xl mx-auto mt-8'>
       <Blogs handleAddToBookmark={handleAddToBookmark}
       handleMarkAsRead={handleMarkAsRead}
       />
